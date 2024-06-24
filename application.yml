@@ -1,4 +1,9 @@
-# spring:
-#   application:
-#     nmae:
+eureka:
+    instance:
+        prefer-ip-address: true
+    client:
+        fetch-registry: true
+        register-withieureka: true
+        service-url:
+            default-zone: hhtp://localhost:8761/eureka
     
